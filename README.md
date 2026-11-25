@@ -38,9 +38,10 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 
 #### Dual wielding pistols (Inventory > Weapons)
 
-| Drawing both pistols | Aiming with both |
-|---|---|
-| ![Lara drawing two pistols](screenshots/dual_wield_draw.webp) | ![Lara aiming with two pistols](screenshots/dual_wield_aim.webp) |
+<p align="center">
+  <img src="screenshots/dual_wield_draw.webp" width="49%" alt="Lara drawing two pistols">
+  <img src="screenshots/dual_wield_aim.webp" width="49%" alt="Lara aiming with two pistols">
+</p>
 
 ### Progression and world
 - **Skill editing** (Skills tab): give or remove any skill, all skills at once, and skill points
@@ -99,9 +100,13 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 
 #### Graphics: the game's own and with ROTTRFramework (Enhancements > Graphics)
 
-| The game's own | With ROTTRFramework |
+<p align="center">
+  <img src="screenshots/graphics_game.webp" width="49%" alt="The game's own graphics">
+  <img src="screenshots/graphics_framework.webp" width="49%" alt="The same scene with ROTTRFramework's graphics options">
+</p>
+
+| Left: the game's own | Right: with ROTTRFramework |
 |---|---|
-| ![The game's own graphics](screenshots/graphics_game.webp) | ![The same scene with ROTTRFramework's graphics options](screenshots/graphics_framework.webp) |
 | Shadow map size: x1<br>Lamp shadow softness: Off<br>Contact shadows: Off<br>Skin scattering: Off | Shadow map size: x8<br>Lamp shadow softness: Softest<br>Contact shadows: Strong, length 30 cm<br>Skin scattering: On |
 
 ### Interface and tools
