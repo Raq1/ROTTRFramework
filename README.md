@@ -37,7 +37,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 ### Progression and world
 - **Skill editing** (Skills tab): give or remove any skill, all skills at once, and skill points
 - **Card enabler** (Cards tab): turn any Expedition card on or off, with search
-- **Weather editor** (General tab): time of day, precipitation and its intensity
+- **Weather editor** (General tab): time of day and precipitation intensity, changed at once (the sky, the level's time-of-day events and each area's lighting, without a checkpoint reload)
 - **Game time scale** and **pause** (World menu, F3)
 - **Unit selector** (Unit menu): load any level unit or Chapter Select entry by name or ID
 - **Birth Instance**: spawn any game object by name or zone ID
@@ -59,7 +59,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
   - **Animation previewer**: play any animation clip on the instance, with looping
 - **Light Editor**: edit the level's lights live (on/off, placement, shading, shadows, indirect lighting), duplicate them or add new ones
 - **Material Editor**: live material editing (parameters, textures, every constant), highlight a material by hovering, save as `.tr10material`
-- **PureHair Editor**: hair look, motion, strands and advanced settings
+- **PureHair Editor**: hair look, motion, strands and advanced settings; Lara's hair can be locked to one motion profile, whatever she does
 - **Cloth level collision**: cloth collides with the level
 - **Cloth underwater settings**: the wet cloth configuration used underwater
 
@@ -83,7 +83,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 - **PureHair strand layouts** PH64, PH128 and PH256
 - **DX12 renderer fix**: stops black terrain, faces and trees with tessellation on (a bug in the game itself, seen on NVIDIA drivers 572 and later)
 - **DLAA**: DLSS at full resolution, used only for anti-aliasing: an entry of the game's own Options > Display > DLSS list (Off, DLAA, Quality, Balanced, Performance, Ultra Performance), switched at once like the others
-- **Graphics past the game's options**: LOD distance, sun shadow distance and sharpness, fog distance, the hair's self-shadow distance (its flicker), skin scattering in play (Enhancements > Graphics)
+- **Graphics past the game's options** (Enhancements > Graphics): LOD and foliage LOD distance, sun shadow distance and sharpness, larger shadow maps for each light, softer lamp shadows, contact shadows, ray-traced lamp and sun shadows (DirectX Raytracing), fog distance, the hair's self-shadow distance (its flicker), and the skin's subsurface scattering in gameplay, not only in cutscenes
 - **Faster loading**: skips the intro logos, speeds up startup, level loads and the main menu's loads (on by default)
 - **Do not pause on focus loss**: the game keeps running in the background (on by default)
 - A faster main menu (the Steam save check is cached; a save the fast start missed is read again, so CONTINUE never shows "EMPTY"), and crash details in the log (crash reports and dumps in `ROTTRFramework\CrashDumps`)
@@ -92,7 +92,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 ### Interface and tools
 - **ImGui menu** (F8; Shift+F8 keeps it on screen while you play), **UI scaling** and three themes
 - **Diagnostics** window (Debug menu): frame rate and which features are available on this game build
-- **Live link** to the ROTTR Modding Suite (edits shown in the game at once). Neither tool is part of this repository.
+- **Live link** to the ROTTR Modding Suite (edits shown in the game at once). The Suite is not part of this repository.
 
 ### Hotkeys
 
