@@ -1,0 +1,5 @@
+# Files are stored as they are (no line-ending conversion); these are binary.
+* -text
+*.tr10anim binary
+*.png binary
+*.jpg binary

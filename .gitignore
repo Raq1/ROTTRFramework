@@ -1,0 +1,45 @@
+# Build output (made by build_vs2026.bat / CMake)
+build/
+out/
+package/
+
+# Visual Studio / CMake user files
+.vs/
+*.user
+*.suo
+CMakeUserPresets.json
+CMakeSettings.json
+
+# Compiled files
+*.asi
+*.dll
+*.exe
+*.lib
+*.exp
+*.obj
+*.pdb
+*.ilk
+*.idb
+
+# Game files and run-time files: never commit these
+ROTTR.exe
+*.tiger
+*.drm
+ROTTRFramework.log
+ROTTRFramework.ini
+*.dmp
+
+# Python
+__pycache__/
+*.pyc
+
+# (v1.0.0) Kept out of the public repository:
+# a disassembly of the game's ROTTR.exe (the game's own code; 169 MB)
+retail.txt
+# development notes (local paths, test sessions) and the per-version diffs of the old history
+docs/
+changes/
+
+# Test output of the tools
+*.ppm
+tools/rt_probe/*_out.txt
