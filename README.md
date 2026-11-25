@@ -207,7 +207,22 @@ The framework targets the current Steam build of `ROTTR.exe`. Before it patches 
 ## Credits
 
 - **[Raq1](https://github.com/Raq1)**: author of ROTTRFramework
+- **[Yiannis Soukoulis](https://x.com/giannissoukouli)**: made these features possible:
+  - Dual wielding
+  - Glowstick customization
+  - Air aim and slow motion enhancements
+  - Black Widow acrobatics, the grapple kick and hand-to-hand combat
+  - Enemy behaviour enhancements
+- **[arc_](https://github.com/arcusmaximus)**: game research
+- **[TheGirlInRed](https://x.com/MissGirlInRed)** and **[Odd?](https://x.com/LyokoUnite)**: testing
 - **Claude** (Anthropic's AI): contributor, writing and researching much of the framework's code with Raq1
+
+## Support
+
+If you'd like to support the work, you can donate on Ko-fi:
+
+- Raq1: [ko-fi.com/raq](https://ko-fi.com/raq)
+- Yiannis Soukoulis: [ko-fi.com/yiannissoukoulis](https://ko-fi.com/yiannissoukoulis)
 
 ## License
 
