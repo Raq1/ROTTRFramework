@@ -1,5 +1,7 @@
 # ROTTRFramework
 
+![ROTTRFramework's menu (F8) over the game](screenshots/header.webp)
+
 A mod framework for **Rise of the Tomb Raider** (PC, Steam; DX12 and DX11). It loads into the game as an `.asi` and adds an in-game menu (**F8**), new gameplay, modding tools for outfits, cutscenes and levels, and fixes for engine bugs.
 
 Current version: **1.0.0**
@@ -33,6 +35,12 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 - **Free underwater swimming**: swim where the camera points, up and down keys, and breath tuning
 - **Gameplay** (Enhancements tab): no tutorial hints or "basecamp / tomb discovered", "tomb nearby" notifications; switching weapons without Lara drawing the new one; campsites usable near enemies; the weapon select at the bottom left, at a size of your choice
 - **Lara's gear** (Player tab): her lower gear, upper gear (with her quiver), body gear (bandolier, rucksack, satchel) and quiver strap hidden for every outfit
+
+#### Dual wielding pistols (Inventory > Weapons)
+
+| Drawing both pistols | Aiming with both |
+|---|---|
+| ![Lara drawing two pistols](screenshots/dual_wield_draw.webp) | ![Lara aiming with two pistols](screenshots/dual_wield_aim.webp) |
 
 ### Progression and world
 - **Skill editing** (Skills tab): give or remove any skill, all skills at once, and skill points
