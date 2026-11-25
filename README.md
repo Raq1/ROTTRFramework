@@ -215,7 +215,7 @@ The framework targets the current Steam build of `ROTTR.exe`. Before it patches 
   - Enemy behaviour enhancements
 - **[arc_](https://github.com/arcusmaximus)**: game research
 - **[TheGirlInRed](https://x.com/MissGirlInRed)** and **[Odd?](https://x.com/LyokoUnite)**: testing
-- **Claude** (Anthropic's AI): contributor, writing and researching much of the framework's code with Raq1
+- **Claude** (Anthropic's AI): contributor, writing and researching much of the framework's code
 
 ## Support
 
