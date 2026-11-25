@@ -78,7 +78,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 - **Mods** from `ROTTRFramework\mods\` (a folder with `mod.json`, or a `.zip`), as the ROTTR Modding Suite makes and installs them; mods still in the game folder's old `mods\` folder are read too
 - **Mod sounds**: sounds that replace the game's, and each outfit's own Lara voice (efforts, pain and death sounds) and voice settings
 - **Cutscene subtitles** from mods
-- **Lua scripting**: scripts in `ROTTRFramework\` or shipped with an outfit can add their own menu tabs (Scripts menu: reload)
+- **Lua scripting**: scripts in `ROTTRFramework\` or shipped with an outfit can add their own menu tabs, keep settings, and hide materials, move Lara's collision markers or fade her wet look (Scripts menu: reload). See the **[scripting guide](SCRIPTING.md)**.
 
 ### Cutscenes and Extras
 - **Extras** in the main menu, with a **Cutscene Viewer** (any cutscene picked from a list as the game's Relics are, in any outfit chosen from a grid of their pictures, with titles in the game's 15 text languages and framed pictures) and a **Model Viewer** (the game's objects in a 3D view, studio-lit, with music; the pictures of its grid come with the framework, and models that mods add get theirs from the ROTTR Modding Suite: Models → For the Model Viewer → Make the pictures)
@@ -197,6 +197,7 @@ The outputs are copied into `package\`.
 | `bootstrap\` | The `faultrep.dll` loader |
 | `scripts\` | Data copied next to the `.asi`: animation clips, `.ini` files, the Cutscene Viewer's frame and pictures (`cutscenes\images`), the Model Viewer's pictures (`model_viewer\`) |
 | `screenshots\` | The pictures in this README |
+| `examples\lua\` | Example Lua scripts (see [SCRIPTING.md](SCRIPTING.md)) |
 | `tools\` | Shader analysis used by the material editor, shader bytecode helpers, `verify_retail_offsets.py` (checks the framework's code signatures against `ROTTR.exe`) and a memory/VRAM monitor |
 | `third_party\` | Dear ImGui, MinHook, Lua 5.4.9, nlohmann/json, stb_image / stb_dxt, bcdec |
 

@@ -19,6 +19,7 @@
 #include "enemy_ai.h"
 #include "brawl.h"
 #include "suite_link.h"
+#include "version.h"
 #include "save_dialog.h"
 #include "material_names.h"
 #include "hair_layout.h"
@@ -5590,7 +5591,7 @@ void DrawAboutWindow() {
 
     ImGui::SetNextWindowSize(UiSize(360.0f, 360.0f), ImGuiCond_FirstUseEver);
     if (ImGui::Begin("About ROTTRFramework", &g_showAbout)) {
-        ImGui::Text("ROTTRFramework v1.0.0");
+        ImGui::Text("ROTTRFramework v" ROTTRFRAMEWORK_VERSION);
         ImGui::TextDisabled("Lua 5.4 scripting");   // (v1.0.0: the old "Native core: v0.9.169" label out)
         ImGui::Separator();
         // (v1.0.0) one key a line; the "Extended skeleton support" part below it taken out

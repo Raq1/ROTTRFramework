@@ -20,6 +20,7 @@
 #include "enemy_ai.h"
 #include "brawl.h"
 #include "cursor_release.h"
+#include "version.h"
 #include "dtp_edit.h"
 #include "suite_link.h"
 #include "instance_anim.h"
@@ -55,7 +56,7 @@ void LogLauncherSkipState() {
 
 DWORD WINAPI InitThread(void* moduleParam) {
     Log::Init();
-    Log::Write("ROTTRFramework v1.0.0 starting");
+    Log::Write("ROTTRFramework v" ROTTRFRAMEWORK_VERSION " starting");
     Log::Write(Log::Verbose() ? "Log: every line ([Log] Verbose=1)"
                               : "Log: important lines only ([Log] Verbose=1 in ROTTRFramework.ini writes every line)");
 
@@ -215,7 +216,7 @@ DWORD WINAPI InitThread(void* moduleParam) {
     CrashDiagnostics::Install(reinterpret_cast<HMODULE>(moduleParam));
     CrashDiagnostics::SetBreadcrumb("ROTTRFramework initialization finished");
     Features::MarkFrameworkInitFinished();
-    Log::Write("ROTTRFramework v1.0.0 initialization finished");
+    Log::Write("ROTTRFramework v" ROTTRFRAMEWORK_VERSION " initialization finished");
     return 0;
 }
 }

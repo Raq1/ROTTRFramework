@@ -1,4 +1,5 @@
 #include "script_engine.h"
+#include "version.h"
 #include "features.h"
 #include "custom_outfits.h"
 #include "log.h"
@@ -451,7 +452,7 @@ void InstallApi(lua_State* L) {
     lua_setglobal(L, "print");
 
     lua_newtable(L); 
-    lua_pushstring(L, "0.9.180");
+    lua_pushstring(L, ROTTRFRAMEWORK_VERSION);   // (v1.0.0: was "0.9.180", never updated)
     lua_setfield(L, -2, "version");
     lua_pushinteger(L, 3);
     lua_setfield(L, -2, "api_version");
