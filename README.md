@@ -73,7 +73,7 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 - **Lua scripting**: scripts in `ROTTRFramework\` or shipped with an outfit can add their own menu tabs (Scripts menu: reload)
 
 ### Cutscenes and Extras
-- **Extras** in the main menu, with a **Cutscene Viewer** (any cutscene picked from a list as the game's Relics are, in any outfit chosen from a grid of their pictures, with titles in the game's 15 text languages and framed pictures) and a **Model Viewer** (the game's objects in a 3D view, studio-lit, with music)
+- **Extras** in the main menu, with a **Cutscene Viewer** (any cutscene picked from a list as the game's Relics are, in any outfit chosen from a grid of their pictures, with titles in the game's 15 text languages and framed pictures) and a **Model Viewer** (the game's objects in a 3D view, studio-lit, with music; the pictures of its grid come with the framework, and models that mods add get theirs from the ROTTR Modding Suite: Models → For the Model Viewer → Make the pictures)
 - **Cutscene bone positions fixer**: stops cutscenes from overriding a model's own skeleton
 
 ### Engine

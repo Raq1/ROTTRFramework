@@ -6,7 +6,8 @@ Contents
   src\            framework source (C++20, MASM), one module per feature
   bootstrap\      faultrep.dll proxy that loads the .asi (ROTTR imports faultrep.dll)
   scripts\        data copied next to the .asi (animation clips + ini files, the Cutscene Viewer's frame and
-                  pictures: cutscenes\images)
+                  pictures: cutscenes\images; the Model Viewer's grid pictures and the models' bounds and looks:
+                  model_viewer\icons, model_viewer\bounds.json, made by the Modding Suite's Make the pictures)
   tools\outfit_manager\
                   material_params.cpp / .h and materials.h: the shader analysis the Material Editor
                   names material parameters with (shared with the Modding Suite, compiled into the .asi)
