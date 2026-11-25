@@ -204,6 +204,11 @@ The outputs are copied into `package\`.
 
 The framework targets the current Steam build of `ROTTR.exe`. Before it patches the game, it checks the game's code at that place; if the code is different, the feature stays off and the menu shows it as unavailable instead of patching the wrong place.
 
+## Credits
+
+- **[Raq1](https://github.com/Raq1)**: author of ROTTRFramework
+- **Claude** (Anthropic's AI): contributor, writing and researching much of the framework's code with Raq1
+
 ## License
 
 The framework's own code is under the [MIT License](LICENSE). The libraries in `third_party\` keep their own licenses (included in each folder). The animation clips and the Cutscene Viewer's pictures (screenshots of the game) in `scripts\` are not covered by the MIT License. No game files are included: you need your own copy of Rise of the Tomb Raider.
