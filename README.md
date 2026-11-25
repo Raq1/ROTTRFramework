@@ -6,6 +6,8 @@ A mod framework for **Rise of the Tomb Raider** (PC, Steam; DX12 and DX11). It l
 
 Current version: **1.0.0**
 
+The tool has been tested with the latest Steam build. Older builds and Epic Games Store build are untested
+
 ## Features
 
 Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
