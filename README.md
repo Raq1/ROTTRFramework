@@ -206,7 +206,6 @@ The framework targets the current Steam build of `ROTTR.exe`. Before it patches 
 
 ## Credits
 
-- **[Raq1](https://github.com/Raq1)**: author of ROTTRFramework
 - **[Yiannis Soukoulis](https://x.com/giannissoukouli)**: made these features possible:
   - Dual wielding
   - Glowstick customization
