@@ -15,8 +15,7 @@ Contents
   tools\verify_retail_offsets.py, tools\memwatch.ps1
                   checks the retail signatures against ROTTR.exe; a memory / VRAM monitor for the game
   third_party\    Dear ImGui, MinHook, Lua 5.4.9, nlohmann/json, stb_image / stb_dxt, bcdec
-  docs\          development notes (materials.md: research and every version's changes)
-  changes\       each version's diff (framework_<version>.diff; from the next version on)
+  screenshots\   the pictures in README.md
   CMakeLists.txt  build (faultrep.dll, ROTTRFramework.asi)
   build_vs2026.bat
   build\         made by build_vs2026.bat (the Visual Studio build; deleted and made again each time)

@@ -89,6 +89,13 @@ Everything is in the in-game menu (**F8**) unless a hotkey or file is given.
 - A faster main menu (the Steam save check is cached; a save the fast start missed is read again, so CONTINUE never shows "EMPTY"), and crash details in the log (crash reports and dumps in `ROTTRFramework\CrashDumps`)
 - **Languages in game**: Options > Audio's voice and text languages can be changed during play, not only at the main menu; Lara's grunts follow the new voice language at once
 
+#### Graphics: the game's own and with ROTTRFramework (Enhancements > Graphics)
+
+| The game's own | With ROTTRFramework |
+|---|---|
+| ![The game's own graphics](screenshots/graphics_game.webp) | ![The same scene with ROTTRFramework's graphics options](screenshots/graphics_framework.webp) |
+| Shadow map size: x1<br>Lamp shadow softness: Off<br>Contact shadows: Off<br>Skin scattering: Off | Shadow map size: x8<br>Lamp shadow softness: Softest<br>Contact shadows: Strong, length 30 cm<br>Skin scattering: On |
+
 ### Interface and tools
 - **ImGui menu** (F8; Shift+F8 keeps it on screen while you play), **UI scaling** and three themes
 - **Diagnostics** window (Debug menu): frame rate and which features are available on this game build
@@ -180,11 +187,10 @@ The outputs are copied into `package\`.
 |---|---|
 | `src\` | Framework source (C++20 and MASM), one module per feature |
 | `bootstrap\` | The `faultrep.dll` loader |
-| `scripts\` | Data copied next to the `.asi`: animation clips, `.ini` files, the Cutscene Viewer's frame and pictures (`cutscenes\images`) |
+| `scripts\` | Data copied next to the `.asi`: animation clips, `.ini` files, the Cutscene Viewer's frame and pictures (`cutscenes\images`), the Model Viewer's pictures (`model_viewer\`) |
+| `screenshots\` | The pictures in this README |
 | `tools\` | Shader analysis used by the material editor, shader bytecode helpers, `verify_retail_offsets.py` (checks the framework's code signatures against `ROTTR.exe`) and a memory/VRAM monitor |
 | `third_party\` | Dear ImGui, MinHook, Lua 5.4.9, nlohmann/json, stb_image / stb_dxt, bcdec |
-| `docs\` | Development notes: `materials.md` holds the research and every version's changes |
-| `changes\` | The diff of each version (`framework_<version>.diff`) |
 
 ## Game version
 
